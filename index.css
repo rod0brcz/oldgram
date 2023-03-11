@@ -1,32 +1,70 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700&display=swap');
 html, body {
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
-    text-align: center;
+    width: 375px;
+    box-sizing:border-box;
     font-family: 'Source Sans Pro', sans-serif;
-}
-.header {
-    display: flex;
-    margin: auto;
-    width: 375px;
-    height: 67px;
-    justify-content: space-between;
-    padding: 16px 15px;
-    border-bottom: 1px solid #C6C6C6;
-}
-.container {
-    display: flex;
-    margin: auto;
-    width: 375px;
+    font-size: 13px;
 }
 
-.info {
+.header {
     display: flex;
-    margin: auto;
-    width: 375px;
+    justify-content: space-between;
+    border-bottom: 1px solid #c6c6c6;
+}
+
+p {
+    margin: 0;
+}
+
+.logo{
+    width: 127px;
+    padding: 10px 15px;
 }
 
 .user{
+    height: 34px;
     border-radius: 50%;
-    
+    padding: 10px 15px;
+    align-self: center;
+}
+
+.post-header {
+    display: flex;
+}
+
+.poster-img {
+    width: 34px;
+    height: 34px;
+    padding: 15px;
+    margin: 0;
+    align-self: center;
+    border-radius: 50%;
+}
+
+.img-container img {
+    max-width: 375px;
+}
+
+.icons img {
+    width: 25px;
+    margin: 3px 5px; 
+}
+
+.info {
+    padding: 20px 0;
+    margin: 0;
+}
+
+.data {
+    padding: 10px;
+}
+
+.thin {
+    font-size: 12px;
+}
+
+.bold {
+    font-weight: 700;
 }

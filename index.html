@@ -10,22 +10,30 @@
                     <img class="user" src="images/user-avatar.png">
                 </div>
             </header>
-            <div class="feed">
-                <div class="post1">
-                    <div class="info">
-                        <img src="images/avatar-vangogh.jpg">
-                        <h2>Vincent van Gogh</h2>
-                        <p>Zudert, Netherlands</p>
-                    </div>
-                    <img src="images/post-vangogh.jpg">
-                    <div class="interaction">
+           <main> 
+                <div class="feed">
+                    <section class="post-header">
+                            <img class="poster-img" src="images/avatar-vangogh.jpg"/>
+                        <div class="info">
+                            <p class="original-poster bold">Vincent van Gogh</p>
+                            <p class="location thin">Zudert, Netherlands</p>
+                        </div>
+                    </section>
+                    <section class="img-container">
+                        <img src="images/post-vangogh.jpg" alt="Vangogh self-portrait"/>
+                    </section>
+                    <section class="icons">
                         <img src="images/icon-heart.png">
                         <img src="images/icon-comment.png">
                         <img src="images/icon-dm.png">
-                    </div>
+                    </section>
+                    <section class="data">
+                        <p class="likes bold">1984 Likes</p>
+                        <p class="comments"><span class="bold">Vincey1853:</span> Just took a few mushrooms lol </p>
+                    </section>
+                    
                 </div>
-
-            </div>
+            </main>
         </div>
         <script src="index.js"></script>
     </body>
